@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.indexPage {
+  background: #eee;
+  padding: 10px;
+  width: 340px;
+}
+
+.indexPage h2 {
+  margin-bottom: 10px;
+}
+
+.indexPage p {
+  cursor: pointer;
+}
+
+.indexPage p b {
+  float: right;
+}
+
+.indexPage ul {
+  margin: 20px;
+}
+
+.indexPage ul li {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.indexPage span {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  text-align: center;
+  line-height: 17px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #eee;
+}
+
+.indexPage .active span {
+  color: #000;
+}
